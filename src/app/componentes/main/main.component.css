@@ -1,0 +1,34 @@
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+}
+.padre-padre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(19, 18, 18);
+    
+}
+.padre{
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    background-color: rgb(70, 69, 69);
+    border-radius: 30px;
+}
+
+.text{
+    /* position: relative; */
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+img{
+    border-radius: 50px;
+    width: 90%;
+}
+
+.relleno{
+    margin-top: 10px;
+}
